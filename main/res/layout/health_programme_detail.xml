@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#800000"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:text="Health" />
+
+    <ImageView
+        android:id="@+id/program_category"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_below="@+id/health"
+        android:layout_alignParentLeft="true"
+        android:padding="1dp" />
+
+    <TextView
+        android:id="@+id/program_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_category"
+        android:textColor="#000084"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_name"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/end_datelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/start_date"
+        android:layout_below="@+id/program_name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text=" - " />
+
+    <TextView
+        android:id="@+id/end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_name"
+        android:layout_toRightOf="@+id/end_datelabel"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/time_startlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_name"
+        android:layout_toRightOf="@+id/end_date"
+        android:textStyle="bold"
+        android:text=", "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/time_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_name"
+        android:layout_toRightOf="@+id/time_startlabel"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/time_endlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_name"
+        android:layout_toRightOf="@+id/time_start"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text=" - " />
+
+    <TextView
+        android:id="@+id/time_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_name"
+        android:layout_toRightOf="@+id/time_endlabel"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/program_venuelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_date"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Venue: "/>
+
+    <TextView
+        android:id="@+id/program_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_date"
+        android:layout_toRightOf="@+id/program_venuelabel"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/age_grouplabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age Group: "
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/program_venuelabel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/age_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_venuelabel"
+        android:layout_toRightOf="@+id/age_grouplabel"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/health_pulse_rewardedlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age_grouplabel"
+        android:textStyle="bold"
+        android:text="Health Pulse Reward: "
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/health_pulse_rewarded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age_grouplabel"
+        android:layout_toRightOf="@+id/health_pulse_rewardedlabel"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/health_pulse_rewardedsession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age_grouplabel"
+        android:layout_toRightOf="@+id/health_pulse_rewarded"
+        android:textColor="#000000"
+        android:text=" per session"/>
+
+    <TextView
+        android:id="@+id/program_descriptionlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/health_pulse_rewardedlabel"
+        android:text="Description: "
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/program_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/health_pulse_rewardedlabel"
+        android:layout_toRightOf="@+id/program_descriptionlabel"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program_descriptionlabel"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

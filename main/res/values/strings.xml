@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PULSE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_pulse">MY PULSE</string>
+    <string name="health_state_text">
+        "\nWell Done! Your weekly Health &amp; Social Pulses are healthy. Keep it up!\n\n"
+    </string>
+    <string name="health_pulse_earn">
+        "Health Pulse Unit Balance : 180"
+    </string>
+
+    <string name="health_pulse_spend">
+        "Health Pulse Unit Spent : 65"
+    </string>
+    <string name="title_activity_current_game">Current Game List</string>
+    <string name="title_activity_current_game_chat">Current Game Chat</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_health_programme">Health Programmes</string>
+    <string name="title_activity_game_buddy">Game Buddy</string>
+    <string name="game_category">Game Category</string>
+    <string name="program_category">Program Category</string>
+    <string name="share">Share</string>
+
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+
+</resources>
